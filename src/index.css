@@ -1,5 +1,20 @@
-body {
+/* Allows elements to stay true to their intended size */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Takes full width of screen */
+  width: 100%;
+  /* Doesn't allow the body to take more than 1000px of the screen width */
+  max-width: 1000px;
+  /* Makes sure the body takes full height of page */
+  min-height: 100%;
+  /* Margin is assigned automatically */
+  margin: 0 auto;
+  /* Sets default fonts for the page */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
