@@ -1,11 +1,15 @@
 import './App.css';
-
+import './Reset.css'
+import Header from "./Components/Header/Header"
 
 function App() {
   return (
     <div>
-      <header></header>
+      <header>
+        <Header />
+      </header>
       <main>
+        
       </main>
       <footer></footer>
     </div>

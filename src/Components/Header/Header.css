@@ -1,0 +1,26 @@
+.header-container {
+    background-color: black;
+    height: 15rem;
+}
+
+.header-title {
+    color: white;
+    height: 15rem;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 10rem;
+    color: white;
+}
+
+.nav-btn {
+    color: white;
+    font-weight: 400;
+}
+
+.nav-btn:hover {
+    color: grey;
+    font-weight: 400;
+}
