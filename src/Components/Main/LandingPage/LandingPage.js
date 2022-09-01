@@ -1,11 +1,7 @@
 import React from 'react';
 
 function LandingPage(props) {
-    return (
-        <div>
-            
-        </div>
-    );
+	return <div></div>;
 }
 
 export default LandingPage;
