@@ -3,7 +3,7 @@ import './Header.css';
 
 function header(props) {
 	return (
-		<div className='header-container'>
+		<div className='header-body'>
 			<h1 className='header-title d-flex justify-content-center align-items-center'>
 				Julian's Blog
 			</h1>

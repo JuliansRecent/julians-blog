@@ -1,6 +1,7 @@
 import './App.css';
 import './Reset.css'
-import Header from "./Components/Header/Header"
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <main>
         
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

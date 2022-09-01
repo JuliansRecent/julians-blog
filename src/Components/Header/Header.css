@@ -1,11 +1,11 @@
-.header-container {
+.header-body {
     background-color: black;
     height: 15rem;
 }
 
 .header-title {
     color: white;
-    height: 15rem;
+    height: 13rem;
 }
 
 .navbar {
