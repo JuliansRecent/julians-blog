@@ -8,7 +8,7 @@ function Footer(props) {
 				<a href=''>Julian's Blog</a>
 			</span>
 			<div>
-				<ul className='d-flex gap-2'>
+				<ul className='d-flex'>
 					<li>
 						<a href='https://www.julian-segura12.com/'>Portfolio </a>
 					</li>

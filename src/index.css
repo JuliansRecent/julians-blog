@@ -20,6 +20,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Stops the page from adding a horizontal scroll bar */
+  overflow-x: hidden;
 }
 
 code {
