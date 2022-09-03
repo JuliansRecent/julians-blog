@@ -1,18 +1,32 @@
 import React from 'react';
 import './LandingPage.css'
+import photo1 from '../../../Assets/macbook-with-code-stock-image.avif'
+import photo2 from '../../../Assets/macbook-bright-background-w-code.avif'
 
 function LandingPage(props) {
     return (
-			<ul className='product-container'>
-				<li className='product-card'>
-					<img src='' alt='' />
-					<div>
-						<div className='product-title'> gfds</div>
-						<div className='product-description'>sdfgsdfgsdf
-						</div>
+			<div className='blog-container'>
+				<article className='blog-card'>
+					<a href=''>
+						<div className='blog-image-1'></div>
+					</a>
+					<div className='blog-content'>
+						<div className='blog-category'></div>
+						<div className='blog-title'>Back</div>
+						<div className='blog-description'>sdfgsdfgsdf</div>
 					</div>
-				</li>
-			</ul>
+				</article>
+				<article className='blog-card'>
+					<a href=''>
+						<div className='blog-image-1'></div>
+					</a>
+					<div>
+						<div className='blog-category'></div>
+						<div className='blog-title'>Back</div>
+						<div className='blog-description'>sdfgsdfgsdf</div>
+					</div>
+				</article>
+			</div>
 		);
 }
 

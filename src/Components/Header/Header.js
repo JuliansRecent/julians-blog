@@ -16,9 +16,6 @@ function header(props) {
 						<button className='btn nav-btn'>Python</button>
 					</li>
 					<li>
-						<button className='btn nav-btn'>React</button>
-					</li>
-					<li>
 						<button className='btn nav-btn'>PostgreSQL</button>
 					</li>
 				</ul>
